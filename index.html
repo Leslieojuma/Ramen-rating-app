@@ -4,8 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ramen-rating-app</title>
+    <link rel="stylesheet" href="index.css"/> 
+    <header><h2>Ramen Rater</h2></header>
 </head>
 <body>
-  <script src="index.js">J.S</script>  
+  <script src="index.js" defer>J.S</script> 
+  <div id="ramen-menu">
+    
+    <form id="postform">
+      <label for="name"><strong>Name:</strong></label>
+      <input type="text" placeholder=""><br>
+      <label for="restorant"><strong>Restorant:</strong></label>
+      <input type="text" placeholder=""><br>
+      <label for="food"><strong>Food:</strong></label>
+      <input type="text" placeholder=""><br>
+      <label for="comment"><strong>Comment:</strong></label>
+      <input type="text" placeholder=""><br>
+      <label for="rating"><strong>Rating:</strong></label>
+      <input type="text" placeholder=""><br>
+      <button id="btn">post</button>
+      
+    </form>
+  </div>
+  
+  
 </body>
 </html>

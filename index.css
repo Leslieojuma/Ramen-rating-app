@@ -1,0 +1,46 @@
+/* index.css */
+
+/* Reset some default styles */
+
+
+/* Style the body */
+body {
+    background-color: rgb(255, 196, 4);
+
+}
+
+/* Style the header */
+header {
+    background-color: #ff6347; /* Tomato color */
+    color: white;
+    width: fit-content;
+    margin: 35px;
+    padding: 28px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+    unicode-bidi: isolate;
+}
+
+form {
+ text-decoration: overline;
+
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+figure {
+    display:block;
+    margin-inline-start: 1em;
+    margin-block-end: 1em;
+    unicode-bidi: isolate;
+    margin-inline-end:40px ;
+    
+}
